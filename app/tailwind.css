@@ -16,6 +16,15 @@ body {
 }
 
 
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 @media (min-width: 700px) and (max-width: 787px) {
   .searchbar {
     width: 10rem;

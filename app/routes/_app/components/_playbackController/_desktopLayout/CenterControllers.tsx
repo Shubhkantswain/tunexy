@@ -32,7 +32,7 @@ function CenterControllers() {
             <div className="relative group rounded-full">
 
                 <button
-                    className={`${true ? "opacity-100 hover:bg-white/40 hover:scale-105" : "opacity-50 cursor-not-allowed"} w-12 h-12 bg-white/20 rounded-full flex items-center justify-center transition-transform`}
+                    className={`${true ? "opacity-100 hover:scale-105" : "opacity-50 cursor-not-allowed"} w-12 h-12 bg-white rounded-full flex items-center justify-center transition-transform text-black`}
                 // onClick={togglePlay}
                 // disabled={!hasTrack}
                 >
