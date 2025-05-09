@@ -11,7 +11,7 @@ function PlaybackController() {
     const [isPlaying, setIsPlaying] = useState(false)
 
     return (
-        <footer className="bg-black backdrop-blur-xl fixed bottom-16 mb-2.5 md:mb-0 rounded-2xl md:rounded-none md:bottom-0 left-0 right-0 z-20 md:bg-black/60 md:backdrop-blur-xl md:border-t border-[#2E3030] h-[65px] md:h-[80px] w-[95%] md:w-full mx-auto">
+        <footer className="bg-black backdrop-blur-xl fixed bottom-16 mb-2.5 md:mb-0 rounded-2xl md:rounded-none md:bottom-0 left-0 right-0 z-20 md:bg-black/60 md:backdrop-blur-xl h-[65px] md:h-[80px] w-[95%] md:w-full mx-auto">
             <div className="max-w-[90rem] mx-auto px-6 w-full h-full flex items-center justify-between text-white">
 
                 {/* Progress bar */}
