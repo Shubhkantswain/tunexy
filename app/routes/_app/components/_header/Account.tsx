@@ -3,7 +3,7 @@ import { AccountIcon } from '~/Svgs'
 
 function Account() {
     return (
-        <div className="bg-[#313232] hover:bg-[#565757] p-2 rounded-full cursor-pointer">
+        <div className="bg-[#313232] hover:bg-[#565757] hover:scale-105 p-2 rounded-full cursor-pointer">
             <AccountIcon />
         </div>
     )
