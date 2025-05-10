@@ -10,7 +10,7 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({ canScrollLeft, canScrollRight, scroll }) => {
-
+        // adding animation 
     const headerVariants = {
         hidden: { opacity: 0, y: -20 },
         visible: {
