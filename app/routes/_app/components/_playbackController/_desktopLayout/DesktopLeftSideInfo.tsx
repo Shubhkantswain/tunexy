@@ -26,14 +26,14 @@ function DesktopLeftSideInfo() {
 
                 {/* overlay icon */}
                 <div className="absolute inset-0 bg-black bg-opacity-50 rounded-sm flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
-                    <div className="hover:text-[#25d1da] text-white p-1">
+                    <div className="hover:text-[#A8EDF0] text-white p-1">
                         <ExpandIcon />
                     </div>
                 </div>
             </div>
 
             <div className="truncate">
-                <div className="font-semibold text-md truncate">Mahabharata Episode 1: Beginnings</div>
+                <div className="font-medium text-md truncate">Mahabharata Episode 1: Beginnings</div>
                 <div className="text-sm text-gray-400 truncate">{currentSong.artist}</div>
             </div>
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { NextIcon, PauseIcon, PlayIcon, PrevIcon, SkipBackwardIcon, SkipForwardIcon, VolumeIcon } from '~/Svgs';
 
-function CenterControllers() {
+function DesktopControllers() {
     const [isPlaying, setIsPlaying] = useState(false);
 
     return (
@@ -9,7 +9,7 @@ function CenterControllers() {
             {/* Skip Backward 15s */}
             <div className="hidden lg:block md:hidden">
                 <button
-                    className={`p-2 rounded-full relative group ${true ? "opacity-100 hover:text-[#93D0D5]" : "opacity-50 cursor-not-allowed"} transition-colors text-white`}
+                    className={`p-2 rounded-full relative group ${true ? "opacity-100 hover:text-[#A8EDF0]" : "opacity-50 cursor-not-allowed"} transition-colors text-white`}
                 // onClick={() => handleSkip('backward')}
                 // disabled={!hasTrack}
                 >
@@ -20,7 +20,7 @@ function CenterControllers() {
 
             {/* Previous Button */}
             <button
-                className={`p-2 relative group rounded-full ${true ? "opacity-100 hover:text-[#93D0D5]" : "opacity-50 cursor-not-allowed"} transition-colors text-white`}
+                className={`p-2 relative group rounded-full ${true ? "opacity-100 hover:text-[#A8EDF0]" : "opacity-50 cursor-not-allowed"} transition-colors text-white`}
             // onClick={() => playTrack('prev')}
             // disabled={isDisabledForDirection('prev')}
             >
@@ -42,7 +42,7 @@ function CenterControllers() {
 
             {/* Next Button */}
             <button
-                className={`p-2 relative group ${true ? "opacity-100 hover:text-[#93D0D5]" : "opacity-50 cursor-not-allowed"} transition-colors text-white rounded-full`}
+                className={`p-2 relative group ${true ? "opacity-100 hover:text-[#A8EDF0]" : "opacity-50 cursor-not-allowed"} transition-colors text-white rounded-full`}
             // onClick={() => playTrack('next')}
             // disabled={isDisabledForDirection('next')}
             >
@@ -53,7 +53,7 @@ function CenterControllers() {
             {/* Skip Forward 30s */}
             <div className="hidden lg:block md:hidden">
                 <button
-                    className={`p-2 relative group rounded-full ${true ? "opacity-100 hover:text-[#93D0D5]" : "opacity-50 cursor-not-allowed"} transition-colors text-white`}
+                    className={`p-2 relative group rounded-full ${true ? "opacity-100 hover:text-[#A8EDF0]" : "opacity-50 cursor-not-allowed"} transition-colors text-white`}
                 // onClick={() => handleSkip('forward')}
                 // disabled={!hasTrack}
                 >
@@ -66,4 +66,4 @@ function CenterControllers() {
     )
 }
 
-export default CenterControllers
+export default DesktopControllers

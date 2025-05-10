@@ -27,7 +27,7 @@ function SearchBar() {
             </button>
 
             <button
-                className={`${!searchQuery ? "opacity-50": "opacity-100 cursor-pointer hover:bg-[#A8EDF0] hover:scale-105"} p-2 flex items-center justify-center bg-[#2ecbd3] rounded-full text-black transition`}
+                className={`${!searchQuery ? "opacity-50": "opacity-100 cursor-pointer hover:bg-[#A8EDF0] hover:scale-105"} p-2 flex items-center justify-center bg-[#25d1da] rounded-full text-black transition`}
                 disabled={!searchQuery}
             >
                 <SearchIcon width="17" height="17" />

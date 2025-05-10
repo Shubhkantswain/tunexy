@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import CenterControllers from './_desktopLayout/CenterControllers'
 import VolumeController from './_desktopLayout/VolumeController'
 import DesktopLeftSideInfo from './_desktopLayout/DesktopLeftSideInfo'
 import MobileLeftSideInfo from './_mobileLayout/MobileLeftSideInfo'
 import MobileControllors from './_mobileLayout/MobileControllors'
 import { Slider } from '~/components/ui/slider'
 import ProgressBar from './ProgressBar'
+import DesktopControllers from './_desktopLayout/DesktopControllers'
 
 function PlaybackController() {
     const [isPlaying, setIsPlaying] = useState(false)
@@ -20,7 +20,7 @@ function PlaybackController() {
                 {/* Desktop layout */}
                 <div className="hidden md:flex w-full justify-between items-center">
                     <DesktopLeftSideInfo />
-                    <CenterControllers />
+                    <DesktopControllers />
                     <VolumeController />
                 </div>
 

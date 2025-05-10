@@ -26,7 +26,7 @@ function NavItems() {
                         }`}
                     >
                         {icon}
-                        <span>{label}</span>
+                        <span className="font-thin text-[9px]">{label}</span>
                     </Link>
                 )
             })}
