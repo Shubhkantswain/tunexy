@@ -32,20 +32,13 @@ function MobileLeftSideInfo() {
 
     return (
         <div className="flex items-center gap-3 min-w-0">
-            <div className="relative cursor-pointer"
-            onClick={() => setIsOpen(true)}>
+            <div
+                onClick={() => setIsOpen(true)}>
                 <img
                     src="https://cms.pixso.net/images/articles/music-player-ui.png" // Replace with dynamic src if needed
                     alt="Episode thumbnail"
                     className="w-11 h-11 rounded-md object-cover"
                 />
-
-                 {/* overlay icon */}
-                <div className="absolute inset-0 bg-black bg-opacity-50 rounded-sm flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
-                    <div className="hover:text-[#A8EDF0] text-white p-1">
-                        <ExpandIcon width="20" height="20" />
-                    </div>
-                </div>
             </div>
             <div className="flex flex-col overflow-hidden">
                 <p className="text-sm font-medium truncate">Mahabharata Epissiiss</p>
@@ -53,7 +46,7 @@ function MobileLeftSideInfo() {
 
             </div>
 
-            <NowPlaying open={isOpen} onClose={() => setIsOpen(false)}/>
+            <NowPlaying open={isOpen} onClose={() => setIsOpen(false)} />
 
         </div>
     )
