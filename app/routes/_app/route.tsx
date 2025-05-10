@@ -1,7 +1,7 @@
-import Header from "./components/_header/Header";
+import Header from "./_components/_header/Header";
 import { Outlet } from "@remix-run/react";
-import PlaybackController from "./components/_playbackController/PlaybackController";
-import MobileNavigationFooter from "./components/_mobileNavigationFooter/MobileNavigationFooter";
+import PlaybackController from "./_components/_playbackController/PlaybackController";
+import MobileNavigationFooter from "./_components/_mobileNavigationFooter/MobileNavigationFooter";
 import { useState } from "react";
 
 //h-[65px] md:h-[80px]
